@@ -27,6 +27,7 @@ while is_playng:
         print("Wrong answer. Better luck next time")
     print()
 
+print("-----------------------")
 
     print("Question 2")
     print(l1[1][0])
@@ -39,6 +40,7 @@ while is_playng:
         print("Wrong answer. Better luck next time")
     print()
 
+print("-----------------------")
 
     print("Question 3")
     print(l1[2][0])
@@ -50,6 +52,8 @@ while is_playng:
     else:
         print("Wrong answer. Better luck next time")
     print()
+
+print("-----------------------")
 
     print("Question 4")
     print(l1[3][0])
@@ -63,8 +67,9 @@ while is_playng:
         print("Wrong answer. Better luck next time")
         print()
 
+print("-----------------------")
 
-    print("Question 5")
+print("Question 5")
     print(l1[4][0])
     answer=input("Enter your answer: ")
     
@@ -77,3 +82,4 @@ while is_playng:
     is_playng=False 
 
 print(f"CONGRATS!!! You have scored {score} points")
+print("-------Thank You for playing the game!----------")
